@@ -16,7 +16,13 @@ int main() {
 
   // เขียนโปรแกรมที่ทำงานเหมือนด้านบนโดยใช้ while แทน for
 
+    int u = 0;
+    while (u < 10) {
+        cout << "Run from while" << endl;
+        u++;
+    }
 
+    cout << "************END while************" << endl;
 
   return 0;
 }
